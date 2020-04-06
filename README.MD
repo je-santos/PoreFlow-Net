@@ -17,6 +17,10 @@ To train/test the model we used tensorflow 1.12, newer versions should work
 
 The rest of the necessary packages should be available via pip
 
+## Data
+All the training/testing data can be found here: [gdrive link](https://drive.google.com/drive/folders/1iQzeNL1BSOeh5repwVlkM0y4sZyeh6Kd?usp=sharing)
+
+
 ## Room for improvement
 The keras tunner could be used to optimize the number of filters on each encoding branch
 
