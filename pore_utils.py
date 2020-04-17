@@ -2,6 +2,7 @@ import numpy as np
 import os
 import shutil # copying files
 from hdf5storage import loadmat#load matrices
+import keras
 import keras.backend as K
 import scipy
 
