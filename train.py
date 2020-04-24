@@ -33,7 +33,7 @@ Main inputs
 """
 num_gpus      = 1       #number of graphic-processing units to train model
 mem_fraction  = 0.95    #fraction of GPU to use
-use_generator = True    #option to use data-generator instead of loading all the data to the RAM
+use_generator = False    #option to use data-generator instead of loading all the data to the RAM
 #num_features  = 1
 net_branches  = 4
 num_filters   = 10      #number of conv filters in the first layer
