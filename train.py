@@ -94,7 +94,7 @@ if use_generator == False:
     
     if the user has its own data, this step can be skipped
     """
-    train_set = pore_utils.load_data( sets = train_on_sets,dir_data=dir_data,
+    train_set = pore_utils.load_data( sets = train_on_sets, path=dir_data,
                                       split=True,input_size = input_size, 
                                       overlap=0 )
     binary_mask = train_set['binary']  #binary mask for the custom loss
