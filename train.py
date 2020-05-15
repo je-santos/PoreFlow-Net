@@ -26,7 +26,7 @@ import pore_utils #my library
 #K.set_epsilon(1e-2) #fixes crazy high numbers when using MAPE
 
 from numpy.random import seed
-from tensorflow import set_random_seed
+#from tensorflow import set_random_seed
 
 """
 Main inputs
@@ -47,7 +47,7 @@ dir_data      = 'D:/SPLBM_output/finney'  #location of the training data
 Set the random number seeds
 """
 seed(rnd_num)
-set_random_seed(rnd_num)
+#set_random_seed(rnd_num)
 #os.environ['PYTHONHASHSEED'] = '0'
 
 

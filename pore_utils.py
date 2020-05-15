@@ -509,3 +509,21 @@ def remove_solid(y1, solid_val=0):
     solid_value = solid_value[0] #value
     y[ y==solid_value ] = solid_val
     return y
+
+def unsplit_matrix(mt, w_stride=0):
+    m_side       = np.int(np.round(mt.size**(1/3)))
+    m_side_cubes = np.int(m_side/mt.shape[1])
+    m = np.zeros((m_side,m_side,m_side))
+    
+    sample_start=np.arange(0,m.shape[0]+1,mt.shape[1])
+    
+    ii=0
+    for j in range(0,m_side_cubes):
+        for k in range(0,m_side_cubes):
+            for i in range(0,m_side_cubes):
+                m[sample_start[k]:sample_start[k+1],
+                  sample_start[j]:sample_start[j+1],
+                  sample_start[i]:sample_start[i+1]] = np.squeeze( mt[ii,:,:,:] )
+                ii = ii+1
+    
+    return m
