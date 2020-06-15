@@ -18,7 +18,7 @@ To train/test the model we used tensorflow 1.12, newer versions should work
 The rest of the necessary packages should be available via pip
 
 ## Data
-The full publication and all the training/testing data can be found [here](https://drive.google.com/drive/folders/1iQzeNL1BSOeh5repwVlkM0y4sZyeh6Kd?usp=sharing):
+The full publication and all the training/testing data can be found [here](https://drive.google.com/drive/folders/1iQzeNL1BSOeh5repwVlkM0y4sZyeh6Kd?usp=sharing).
 
 
 ## Room for improvement
