@@ -4,7 +4,7 @@
 Implementation of
 **PoreFlow-Net: a 3D convolutional neural network to predict fluid flow through porous media**
 ## Instructions
-1. Download the desired data from the digital rock portal (or create your own via your preferred simulation method)
+1. Download the desired data from [my google drive](https://drive.google.com/drive/folders/1iQzeNL1BSOeh5repwVlkM0y4sZyeh6Kd?usp=sharing) (or create your own via your preferred simulation method)
 2. Use the train.py script to train a model
 
 ## Model architecture
@@ -18,7 +18,7 @@ To train/test the model we used tensorflow 1.12, newer versions should work
 The rest of the necessary packages should be available via pip
 
 ## Data
-The full publication and all the training/testing data can be found here: [gdrive link](https://drive.google.com/drive/folders/1iQzeNL1BSOeh5repwVlkM0y4sZyeh6Kd?usp=sharing)
+The full publication and all the training/testing data can be found [here](https://drive.google.com/drive/folders/1iQzeNL1BSOeh5repwVlkM0y4sZyeh6Kd?usp=sharing):
 
 
 ## Room for improvement
