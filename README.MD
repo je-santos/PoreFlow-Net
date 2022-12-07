@@ -8,7 +8,7 @@ Implementation of
 
 :children_crossing: Bernie Chang has been working on an updated version of this code and I suggest dropping by [his fork](https://github.com/BC-Chang/PoreFlow-Net).
 ## Instructions
-1. Download the desired data from [my google drive](https://drive.google.com/drive/folders/1iQzeNL1BSOeh5repwVlkM0y4sZyeh6Kd?usp=sharing) (or create your own via your preferred simulation method)
+1. Download the desired data from [the digital rocks portal](https://www.digitalrocksportal.org/projects/372) (or create your own via your preferred simulation method)
 2. Use the train.py script to train a model
 
 ## Model architecture
